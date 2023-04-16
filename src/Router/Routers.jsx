@@ -7,7 +7,7 @@ export const Routers = () =>{
   return(
     <Routes>
       <Route exact path="/" element={<Home />} />
-      <Route exact path="/save" element={<SavePage />} />
+      <Route exact path="/save_url" element={<SavePage />} />
     </Routes>
   )
 }

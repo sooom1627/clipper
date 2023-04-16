@@ -1,9 +1,11 @@
 import React from "react";
+import {MainLayout} from "../Layout/MainLayout"
+import {Navigator} from "../Molecule/Navigator"
 
 export const SavePage  = () =>{
   return(
-    <div>
-      <input type="text" placeholder="URLを入力してください"/>
-    </div>
+    <div className="h-screen">
+    <MainLayout left={<Navigator />} right="" />
+  </div>
   )
 }

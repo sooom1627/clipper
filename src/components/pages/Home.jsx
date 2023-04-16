@@ -1,9 +1,11 @@
 import React from "react";
+import { MainLayout } from "../Layout/MainLayout";
+import { Navigator } from "../Molecule/Navigator";
 
 export const Home = () =>{
   return(
-  <div>
-    <h1>Home</h1>
+  <div className="h-screen">
+    <MainLayout left={<Navigator />} right="" />
   </div>
   )
 }
